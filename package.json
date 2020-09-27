@@ -1,0 +1,11 @@
+{
+  "name": "deploy",
+  "version": "1.0.0",
+  "main": "app.js",
+  "repository": "https://github.com/dsq3033/deploy.git",
+  "author": "shiqi.dong <shiqi.dong@ucarinc.com>",
+  "license": "MIT",
+  "dependencies": {
+    "koa": "^2.13.0"
+  }
+}
