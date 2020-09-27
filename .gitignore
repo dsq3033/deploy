@@ -15,5 +15,7 @@ views/dev/*
 public/views/dev/*
 public/views/prod/*
 package-lock.json
+yarn.lock
 coverage/
 *registerBranches.json
+
