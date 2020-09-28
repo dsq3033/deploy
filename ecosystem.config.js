@@ -17,7 +17,7 @@ module.exports = {
             ref  : "origin/master",  // 部署目标分支
             repo : "https://github.com/dsq3033/deploy.git", //git仓库地址
             "ssh_options" : 'StrictHostKeyChecking=no',  //ssh 登录校验
-            path : '/home/dsq',  //部署目标目录
+            path : '/Users/dongshiqi/var/www',  //部署目标目录
             "pre-deploy-local" : "echo 'This is a local executed command'", // 部署前本地打印内容
             'pre-deploy': 'npm install'  //部署前服务器执行的命令行
         }
