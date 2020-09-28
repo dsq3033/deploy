@@ -19,7 +19,7 @@ module.exports = {
             "ssh_options" : 'StrictHostKeyChecking=no',  //ssh 登录校验
             path : '/Users/dongshiqi/var/www',  //部署目标目录
             "pre-deploy-local" : "echo 'This is a local executed command'", // 部署前本地打印内容
-            'pre-deploy': 'cd /usr/local/bin/ && ls'  //部署前服务器执行的命令行
+            'pre-deploy': '/usr/local/bin/npm -v'  //部署前服务器执行的命令行
         }
     }
 }
